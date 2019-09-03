@@ -67,6 +67,10 @@ public class BankAccount {
         System.out.println("How much do you wanna deposit: ");
         value = scanner.nextInt();
         double result = balance - value;
+        if (balance == 0){//Can't withdraw
+            System.out.println("You can't Withdraw, your balance is "+balance);
+            return 0;
+        }
         System.out.println("Your balance is now: " + result);
         return result;
     }
