@@ -68,7 +68,7 @@ public class WordTest {
 
     }
     @Test
-    public void test_getOneIncorrectLetter()//Checking if "k" is a incorrectLetter
+    public void test_getOneIncorrectLetter()//Checking if "k" is an incorrectLetter
     {
         testWord.guessLetter('k');
         String result = testWord.getIncorrectLetters();
