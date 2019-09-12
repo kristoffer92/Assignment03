@@ -6,5 +6,5 @@ public class Hangman {
             Word classWord = new Word();
             classWord.makeMain();
             classWord.guess();
-    }
-}
+    }//End of main
+}//End of Hangman

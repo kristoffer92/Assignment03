@@ -61,7 +61,7 @@ public class Word {
             System.out.println("\nYou have " + guessCounter + " more guesses: ");
             for (char x : revLetters ) {
                 System.out.print(x + " ");
-            }//End of forLoop
+            }//End of the forLoop
 
             System.out.println("\nIncorrect letters so far: " +incorrect);
 

@@ -91,4 +91,4 @@ public class WordTest {
         Assert.assertTrue(counterStart <= result);//Removing "=" will make the test fail
 
     }
-}//End of test_Word
+}//End of testWord
