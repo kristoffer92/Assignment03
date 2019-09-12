@@ -17,7 +17,7 @@ public class Word {
         incorrect = new StringBuilder();
         revLetters = new char[assign.length()];
         Arrays.fill(revLetters, '_');
-    }
+    }//End of Word
 
     public void makeMain() {
         System.out.println("--------------------Hangman--------------------");
